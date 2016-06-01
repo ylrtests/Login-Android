@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EjemploLogIn</string>
+    <string name="ed_user">Nombre de usuario</string>
+    <string name="et_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="tv_copyright">Aplicación creada por Yojhan Rodriguez</string>
+    <string name="tv_descripcion">Está aplicación busca llamar unos servicios Web desde una aplicación de Android Studio</string>
 </resources>
