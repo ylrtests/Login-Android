@@ -5,4 +5,11 @@
     <string name="btn_login">Iniciar sesión</string>
     <string name="tv_copyright">Aplicación creada por Yojhan Rodriguez</string>
     <string name="tv_descripcion">Está aplicación busca llamar unos servicios Web desde una aplicación de Android Studio</string>
+    <string name="tv_id">Id de usuario:</string>
+    <string name="tv_apellido">Apellidos:</string>
+    <string name="tv_nombre">Nombres:</string>
+    <string name="tv_username">Nombre de usuario:</string>
+    <string name="tv_password">Contraseña:</string>
+    <string name="tv_userfecha">Fecha de nacimiento</string>
+    <string name="Error">Error</string>
 </resources>

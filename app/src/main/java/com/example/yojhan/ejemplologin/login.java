@@ -1,5 +1,6 @@
 package com.example.yojhan.ejemplologin;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,7 +51,11 @@ public class login extends AppCompatActivity implements View.OnClickListener, As
             Toast.makeText(this,"Verifique usuario y contraseña", Toast.LENGTH_LONG).show();
         }
         else{
-            Toast.makeText(this,"Inicio de sesión exitoso", Toast.LENGTH_LONG).show();
+            Home.setUserglobal(user);
+            Intent i = new Intent(this,Home.class);
+            startActivity(i);
+            finish();
+
         }
     }
 
@@ -69,7 +74,6 @@ public class login extends AppCompatActivity implements View.OnClickListener, As
                 user = new Usuario(id,nombre,apellido,username,password,fechanac);
             }
         } catch (JSONException e) {
-            e.printStackTrace();
             return user;
         }
 
